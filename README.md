@@ -1,11 +1,19 @@
-📌 Submission Details
+Dataset i used for this project is "https://drive.google.com/drive/folders/1D4wfDDynvxYAxvlD1fc1BWlvUB5xpq_n?usp=drive_link" In this drive link i have used the weather_filled.csv file for the project.
 
-1. Fork this repository to your own GitHub account, naming it Climate_Scope-[YourName] (replace [YourName] with your actual name).
+Loaded dataset using Pandas and explored structure with .head(), .info(), .shape, and .describe().
 
-2. Create a folder with your name inside your forked repo and place all your work (code, dataset links, results, and a README).
+Identified and removed missing values and duplicate records to ensure clean data.
 
-3. Make regular and meaningful commits for every milestone.
+Checked and converted data types (e.g., dates to datetime format).
 
-4. Push your changes to your forked repository or upload your work manually.
+Performed Univariate and Bivariate Analysis to study feature distributions and relationships.
 
-5. Update your repository at every milestone to reflect your progress. 
+Detected and handled outliers using statistical methods.
+
+Created new derived features like Year, Month, and Season for deeper insights.
+
+Standardized and filtered irrelevant or noisy data.
+
+Aggregated data at suitable intervals for visualization (e.g., monthly/yearly).
+
+Saved the final cleaned dataset for dashboard and further analysis.
